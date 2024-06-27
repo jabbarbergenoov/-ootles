@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Kodchasan;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.container {
+    width: 1406px;
+    margin: 0 auto;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    position: ;
+}
+
+.header-nav-logo {
+    margin-left: 227px;
+}
+
+.header-navbar {
+    display: flex;
+    gap: 50px;
+}
+
+.header-navbar a {
+    color: #000000;
+    font-weight: 500;
+    font-family: Kodchasan;
+}
+
+.header-navbar a:hover {
+    font-weight: 700;
+}
+
+.honey-background {
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 30px;
+    height: 865px ;
+    background: rgb(255, 157, 45);
+    background: linear-gradient(36deg, rgba(255, 157, 45, 1) 1%, rgba(255, 216, 119, 1) 100%);
+}
+.honey-background2 {
+    background-image: url(../images/backgroun2.png);
+    height: 611px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+.bal {
+    position: relative;
+    bottom: 820px;
+    right: 80px;
+}
+.honey-text {
+    margin-top: 70px;
+}
+.honey-text h2 {
+    width: 317px;
+    font-weight: 700;
+    font-size: 100px;
+    font-family:  Kodchasan;
+}
+.honey-text span {
+    display: flex;
+    gap: 50px;
+}
+.honey-text span img {
+    border-bottom: 2px solid #000000;
+    width: 200px;
+}
+.honey-text-h2 {
+    margin-left: 120px;
+}
+.honey-btns {
+    margin-top: 90px;
+}
+.btn {
+    padding: 20px 5px; 
+    width: 200px;
+}
+.black {
+    background-color: #000000;
+    color: #fff;
+    border: transparent;
+}
+.black:hover {
+    background-color: transparent;
+    color: #000000;
+    border: 1px solid #000000;
+}
+.white {
+    background-color: transparent;
+    color: #000000;
+    border: 1px solid #000000;
+}
+.white:hover {
+    background-color: #000000;
+    color: #fff;
+    border: 1px solid #000000;
+}
+.orange {
+    background-color: #E58311;
+    color: #fff;
+    border: 1px solid transparent;
+}
+.orange:hover {
+    background-color: #fff;
+    border: 1px solid #E58311;
+    color: #E58311;
+}
+.whior {
+    background-color: transparent;
+    border: 1px solid #E58211;
+    color: #E58211;
+}
+.whior:hover {
+    background-color: #E58211;
+    color: #fff;
+}
+.our {
+    margin-left: 227px;
+}
+.our-title {
+    font-size: 45px;
+    font-weight: 700;
+    font-family: Kodchasan;
+}
+.our-imgs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    width: 1146.34px;
+}
+.create {
+    display: flex;
+    margin-top: 80px;
+   justify-content: space-between;
+   margin-right: 120px;
+}
+.create-img img {
+    width: 600px;
+}
+.create-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.create-text h2 {
+    font-family: Kodchasan;
+    font-weight: 700;
+    font-size: 45px;
+}
+.create-text p {
+    font-weight: 600;
+    font-family: Kodchasan;
+    font-size: 22px;
+}
+.Product {
+    margin-left: 227px;
+}
+.sell-all {
+    display: flex;
+    justify-content: end;
+    margin-right: 120px;
+}
+.sell-all a {
+    color: #E58211;
+    text-decoration: underline;
+}
+.product-cards {
+    display: flex;
+    gap: 110px;
+    margin-top: 50px;
+}
+.product-card  {
+    display: flex;
+    background-color: #e5821134;
+    width: 585px;
+    height: 305px;
+    padding: 30px;
+    padding-top: 50px;
+    gap: 40px;
+}
+.product-card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer {
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: rgb(255, 157, 45);
+    background: linear-gradient(36deg, rgba(255, 157, 45, 1) 1%, rgba(255, 216, 119, 1) 100%);
+}
+.footer-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.social {
+    display: flex;
+    gap: 20px;
+}
